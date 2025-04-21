@@ -50,7 +50,7 @@
       <!-- <img src="assets/img/logo.png" alt=""> -->
       <h1 class="sitename">Pardha Saradhi Chandana</h1>
     </a>
-
+	<!--
     <div class="social-links text-center">
       <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
       <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -58,7 +58,17 @@
       <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
       <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
-
+	-->
+	<div class="social-links mt-3 text-center">
+          <div class="card">
+            <span>Social</span>
+            <a href="https://www.linkedin.com/in/pardha-saradhi-chandana-b7634319a/" target="_blank" class="social-link linkedin"><i
+                class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/pardha-saradhi411" target="_blank" class="social-link github"><i
+                class="bi bi-github"></i></a>
+          </div>
+        </div>
+	<!--
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
@@ -87,6 +97,20 @@
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
+	-->
+	<nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-list-check"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Projects</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-certification"></i>
+              <span>Awards & Certifications</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
 
   </header>
 
@@ -101,6 +125,16 @@
         <h2>Pardha Saradhi Chandana</h2>
         <p>I'm <span class="typed" data-typed-items="System Test Engineer, Developer">System Test Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
+	  <div class="mouse_scroll">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <span class="m_scroll_arrows unu"></span>
+        <span class="m_scroll_arrows doi"></span>
+        <span class="m_scroll_arrows trei"></span>
+      </div>
+    </div>
 
     </section><!-- /Hero Section -->
 
@@ -116,6 +150,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
+		  <!--
           <div class="col-lg-4">
             <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
           </div>
@@ -141,6 +176,40 @@
                 </ul>
               </div>
             </div>
+			-->
+			<div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-2.jpg" class="img-fluid" alt="">
+            <h3 class="about-me-title">System Test Engineer</h3>
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="ide-container">
+              <div class="code">
+                <span class="line-number">1</span><span class="comment">// The component describes only thing that is
+                  constant is change.</span>
+                <span class="line-number">2</span><code class="class">export class PardhaSaradhiChandanaComponent { </code>
+                <span class="line-number">3</span><code class="indent">firstName: string!;</code>
+                <span class="line-number">4</span><code class="indent">lastName: string!;</code>
+                <span class="line-number">5</span><code class="indent">dayOfBirthTimestamp: number!;</code>
+                <span class="line-number">6</span><code class="indent">email: string!;</code>
+                <span class="line-number">7</span><code class="indent">degree: string!;</code>
+                <span class="line-number">8</span><code class="indent">city: string!;</code>
+                <span class="line-number">9</span><code class="constructor indent">constructor() { </code>
+                <span class="line-number">10</span><code class="indent double-indent">this.firstName = 'Pardha Saradhi';</code>
+                <span class="line-number">11</span><code class="indent double-indent">this.lastName = 'Chandana';</code>
+                <span class="line-number">12</span><code
+                  class="indent double-indent">this.dayOfBirthTimestamp = new Date('2000-03-20').getTime();;</code>
+                <span class="line-number">13</span><code
+                  class="indent double-indent">this.email = 'pardhasaradhi7477@gmail.com';</code>
+                <span class="line-number">14</span><code class="indent double-indent">this.degree = 'B.Tech in Electronics and Communication Engineering';</code>
+                <span class="line-number">15</span><code
+                  class="indent double-indent">this.city = 'Hyderabad, Telangana';<span class="cursor">|</span></code>
+                <span class="line-number">16</span><code class="constructor indent">}</code>
+                <span class="line-number">17</span><code class="class">}</code>
+              </div>
+            </div>
+          </div>
+        </div>
             <p class="py-3">
               With over three years of hands-on experience in the telecom industry, I have developed strong expertise in 4G LTE and 5G RAN testing, protocol analysis, and debugging across layers like RRC, NAS, S1AP, and X2AP. My current role at Mavenir involves validating key telecom features, handling end-to-end system testing, and contributing to automation frameworks using Python. 
 			  I thrive in collaborative environments, am detail-oriented, and always eager to learn the latest technologies in the wireless domain. I am open to new challenges and am especially interested in global roles where I can make a meaningful impact—particularly in Japan's dynamic telecom space.
@@ -153,7 +222,7 @@
     </section><!-- /About Section -->
 
     <!-- Stats Section -->
-    <!section id="stats" class="stats section">
+    <section id="stats" class="stats section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -161,33 +230,33 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+              <i class="bi bi-building-fill"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Internships</strong> <span>opportunities</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+              <i class="bi bi-code-slash"></i>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>developed</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+              <i class="bi bi-trophy-fill"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Courses</strong> <span>completed</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+              <i class="bi bi-award-fill"></i>
+              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Awards & Certifications</strong> <span>earned</span></p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -203,7 +272,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>His needs result from something escape him indeed are consectetur will</p>
+        <p>A versatile set of technical and analytical skills honed through hands-on experience in telecom systems, automation, and software tools.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -280,7 +349,8 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <!h3 class="resume-title">Sumary</h3>
+            <!--
+			<!h3 class="resume-title">Sumary</h3>
 
             <!div class="resume-item pb-0">
               <h4>Brandon Johnson</h4>
@@ -292,7 +362,8 @@
               </ul>
             <!/div><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Education</h3>
+            <!--
+			<h3 class="resume-title">Education</h3>
             <!div class="resume-item">
               <h4>Master of Fine Arts &amp; Graphic Design</h4>
               <h5>2015 - 2016</h5>
@@ -301,10 +372,14 @@
             <!/div><!-- Edn Resume Item -->
 
             <div class="resume-item">
-              <h4>Bachelor of Technology &amp; Electronics and Communication Engineering</h4>
-              <h5>2017 - 2021</h5>
-              <p><em>CMR Institute of Technology (CMRIT), Hyderabad</em></p>
-              <p>The Bachelor of Technology (B.Tech) program in Electronics and Communication Engineering (ECE) at CMR Institute of Technology (CMRIT) is meticulously designed to provide a holistic education that not only emphasizes traditional ECE principles but also delves into the software aspects of the field.</p>
+              <h4>Bachelor of Technology in Electronics &amp; Communications Engineering</h4>
+              <h5>July 2017 - June 2021</h5>
+              <h5>GPA - 3.55 / 4</h5>
+              <p><em>CMR Institute of Technology, Kandlakoya, Medchal, India</em></p>
+              <p>The Bachelor of Technology (B.Tech) program in Electronics and Communication Engineering (ECE) at CMR
+                Institute of Technology (CMRIT) is meticulously designed to provide a holistic education that not only
+                emphasizes
+                traditional ECE principles but also delves into the software aspects of the field.</p>
             </div><!-- Edn Resume Item -->
 
           </div>
@@ -312,26 +387,41 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>LTE SA Feature Testing and Optimization</h4>
+			  <h4>Member of Technical Staff - 1</h4>
+              <h5>Feb 2023 - Present</h5>
+              <h5>Client: VMO2,DTAG</h5>
+              <p><em>Mavenir Systems Pvt Ltd, Bangalore, Karnataka, India</em></
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Collaborated with cross-functional teams to confirm LTE SA features such as S1 Flex, X2/S1 Handover,
+VoLTE, and Intra/Inter Handover, ensuring seamless operation and 100% service continuity.</li>
+                <li>Conducted thorough testing of CMAS, ETWS, and Carrier Aggregation, and MDT functionalities, verifying their
+effectiveness in enhancing network capabilities and user experience, resulting in a 20% increase in user
+satisfaction.</li>
+                <li>Utilized Wireshark for log analysis and troubleshooting issues seen in eNB, providing targeted analysis,
+and justifying failed KPIs according to quality assurance guidelines, improving issue resolution time by
+30%.</li>
+                <li>Conducted UDP and TCP throughput testing and cell lock/unlock functionality assessment to evaluate
+network performance under varying conditions, ensuring robustness, and achieving a 10% improvement
+in network stability.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>5G RAN Testing and Validation</h4>
+			  <h4>Graduate Engineer</h4>
+              <h5>Feb 2022 - June 2023</h5>
+              <h5>Client: NEC</h5>
+              <p><em>Mavenir Systems Pvt Ltd, Bangalore, Karnataka, India</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Utilized tools such as QXDM, Wireshark, and XCAL for log analysis and troubleshooting network
+performance issues, ensuring adherence to quality standards.</li>
+                <li>Worked extensively on 5G Standalone (SA) TDD Open Radio Access Network (ORAN) products, using
+cloud, Docker, and Kubernetes technologies, improving deployment efficiency by 20%.</li>
+                <li>Validated 5G ORAN product features through rigorous regression and non-regression testing, ensuring
+99.9% compatibility and reliability in diverse network environments.</li>
+                <li>Conducted end-to-end 5G protocol stack validation by analyzing logs, finding, and addressing anomalies,
+and reducing error rates by 15%.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -342,18 +432,20 @@
       </div>
 
     </section><!-- /Resume Section -->
-
+	
     <!-- Projects Section -->
+	<!--
     <section id="Projects" class="Projects section light-background">
 
       <!-- Section Title -->
+	  <!--
       <div class="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
+        <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+      <!--</div><!-- End Section Title -->
+	  <!--
       <div class="container">
-
+	
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="Projects-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
@@ -363,7 +455,7 @@
             <li data-filter=".filter-branding">Branding</li>
             <li data-filter=".filter-books">Books</li>
           </ul><!-- End Projects Filters -->
-
+		<!--
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-app">
@@ -377,7 +469,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+		<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-product">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/product-1.jpg" class="img-fluid" alt="">
@@ -389,7 +481,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+		<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-branding">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/branding-1.jpg" class="img-fluid" alt="">
@@ -401,7 +493,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+		<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-books">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/books-1.jpg" class="img-fluid" alt="">
@@ -413,7 +505,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-app">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/app-2.jpg" class="img-fluid" alt="">
@@ -425,7 +517,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-product">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/product-2.jpg" class="img-fluid" alt="">
@@ -437,7 +529,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-branding">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/branding-2.jpg" class="img-fluid" alt="">
@@ -449,7 +541,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-books">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/books-2.jpg" class="img-fluid" alt="">
@@ -461,7 +553,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-app">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/app-3.jpg" class="img-fluid" alt="">
@@ -473,7 +565,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-product">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/product-3.jpg" class="img-fluid" alt="">
@@ -485,7 +577,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-branding">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/branding-3.jpg" class="img-fluid" alt="">
@@ -497,7 +589,7 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
             <div class="col-lg-4 col-md-6 Projects-item isotope-item filter-books">
               <div class="Projects-content h-100">
                 <img src="assets/img/Projects/books-3.jpg" class="img-fluid" alt="">
@@ -509,14 +601,97 @@
                 </div>
               </div>
             </div><!-- End Projects Item -->
-
+<!--
           </div><!-- End Projects Container -->
-
+<!--
         </div>
 
       </div>
+-->
+    </section>
+	
+	<!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
 
-    </section><!-- /Projects Section -->
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-angular">Angular</li>
+              <!-- <li data-filter=".filter-react">React</li> -->
+              <li data-filter=".filter-flask">Flask</li>
+              <li data-filter=".filter-laravel">Laravel</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-angular">
+            <div class="portfolio-wrap">
+              <img src="assets/img/acronet_screenshots/admin_homepage.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/acronet_screenshots/admin_homepage.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Acronet Angular Application"><i class="bx bx-plus"></i></a>
+                <a href="acronet_project-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-flask">
+            <div class="portfolio-wrap">
+              <img src="assets/img/jobs_screenshots/home_page_view_for_manager.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/jobs_screenshots/home_page_view_for_manager.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Jobs Flask Application"><i class="bx bx-plus"></i></a>
+                <a href="jobs_project-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-angular">
+            <div class="portfolio-wrap">
+              <img src="assets/img/rove_around_screenshots/trip-details.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/rove_around_screenshots/trip-details.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Rove Around Angular Application"><i class="bx bx-plus"></i></a>
+                <a href="rove_around_angular_project-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-laravel">
+            <div class="portfolio-wrap">
+              <img src="assets/img/inventory_laravel_screenshots/ownership_index_page_.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/inventory_laravel_screenshots/ownership_index_page_.png"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="Inventory Laravel Application"><i
+                    class="bx bx-plus"></i></a>
+                <a href="inventory_laravel_project-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-angular">
+            <div class="portfolio-wrap">
+              <img src="assets/img/inventory_angular_screenshots/main_page.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/inventory_angular_screenshots/main_page.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Inventory Angular Application"><i class="bx bx-plus"></i></a>
+                <a href="inventory_angular_project-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
 
     <!-- Awards & Honors Section -->
     <section id="Awards & Honors" class="Awards & Honors section">
