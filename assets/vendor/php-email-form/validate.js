@@ -1,5 +1,5 @@
 /**
-* PHP Email Form Validation - v3.9
+* PHP Email Form Validation - v3.6
 * URL: https://bootstrapmade.com/php-email-form/
 * Author: BootstrapMade.com
 */
@@ -26,6 +26,7 @@
       thisForm.querySelector('.sent-message').classList.remove('d-block');
 
       let formData = new FormData( thisForm );
+      console.log(formData);
 
       if ( recaptcha ) {
         if(typeof grecaptcha !== "undefined" ) {
